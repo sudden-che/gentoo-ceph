@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  - tasks:
+      name: soft inst
+        include: prepare.yml
+   
